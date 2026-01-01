@@ -39,8 +39,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id" className="dark">
-      <body className={`${inter.className} antialiased bg-[#0a0a0a] text-white min-h-screen`}>
+    <html lang="id" className="dark" suppressHydrationWarning>
+      <body className={`${inter.className} antialiased bg-[#0a0a0a] text-white min-h-screen`} suppressHydrationWarning>
         <Navbar />
         <main className="pt-16 md:pt-20">
           {children}

@@ -58,17 +58,17 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/#trending" className="text-white/60 hover:text-red-400 text-sm transition-colors">
+                                <Link href="/trending" className="text-white/60 hover:text-red-400 text-sm transition-colors">
                                     Trending
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/#latest" className="text-white/60 hover:text-red-400 text-sm transition-colors">
+                                <Link href="/terbaru" className="text-white/60 hover:text-red-400 text-sm transition-colors">
                                     Terbaru
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/#dubbed" className="text-white/60 hover:text-red-400 text-sm transition-colors">
+                                <Link href="/dubbed" className="text-white/60 hover:text-red-400 text-sm transition-colors">
                                     Sulih Suara
                                 </Link>
                             </li>
